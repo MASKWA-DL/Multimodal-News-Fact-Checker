@@ -1,0 +1,58 @@
+# Local environment variables and credentials
+.env
+.env.*
+.envrc
+.netrc
+.npmrc
+.pypirc
+.aws/
+.ssh/
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa
+id_ed25519
+
+# Local editor and assistant state
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Dependencies, virtual environments, and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Generated build, test, and runtime output
+build/
+dist/
+coverage/
+.coverage
+htmlcov/
+*.log
+logs/
+tmp/
+temp/
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
