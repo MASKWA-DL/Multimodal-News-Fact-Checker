@@ -1,11 +1,11 @@
-![FACT CHECKER 像素风宣传图：放大镜扫描新闻卡片，连接图文线索与证据节点](assets/readme-pixel-banner.png)
+![FACT CHECKER pixel art banner: a magnifying glass scanning news cards connected to evidence sources](assets/readme-pixel-banner.png)
 
-# 项目背景
+# Project Background
 
-随着互联网技术和社交媒体的快速发展，新闻信息的发布和传播方式发生了显著变化。新闻不仅通过传统新闻网站传播，也广泛出现在短视频平台、社交媒体及各类网络社区中。文字与图片相互配合，使新闻内容更加直观；用户通过转发、评论和二次编辑参与传播，也使新闻能够在较短时间内覆盖大量受众。
+The rapid growth of the internet and social media has changed how news is published and shared. Alongside traditional news websites, news now circulates through short video platforms, social networks, and online communities. Combining text and images makes stories more vivid, while reposting, commenting, and editing allow information to reach large audiences quickly.
 
-图文新闻的广泛传播增加了真实性核查的复杂程度。新闻文本可能包含虚构事件、错误引用的数据，或对事件时间、地点的不准确描述；真实图片也可能被脱离原始语境，用于描述其他时间、地点或事件。即使文本和图片分别符合常识，且在语义上保持一致，也不能证明新闻所描述的事件真实发生。因此，仅依赖内容特征或图文匹配，难以充分判断新闻事实的真实性。
+The widespread use of text and images makes factual verification more complex. A report may describe fabricated events, cite incorrect data, or misstate when and where an event took place. Authentic images can also be taken out of context and paired with reports about a different time, location, or event. Even when text and images appear plausible and consistent with each other, that consistency does not establish that the reported event actually occurred. Content features and text-image alignment alone therefore provide insufficient grounds for factual verification.
 
-外部信息检索能够为事实核验提供依据，但检索结果本身仍可能存在来源不明、重复转载、内容错误或与待核验事实不对应等问题。多个网站转发同一原始消息，并不构成多份独立证据；主题相似的报道或图片，也不一定对应同一事件。当证据有限、来源相互冲突或关键事实缺少可查证记录时，直接给出确定性结论容易产生错误判断。
+Retrieving external information can support fact-checking, but search results may have unclear origins, repeat the same source, contain errors, or fail to address the specific claim. Several websites reproducing one original report do not constitute independent evidence, and similar reports or images may refer to different events. Limited evidence, conflicting sources, or missing records make definitive judgments prone to error.
 
-基于上述背景，本项目拟构建多模态新闻事实核验与证据可信性增强系统，以可靠、可追溯的外部证据为主要判断依据，关注证据的来源可靠性、事实相关性、来源独立性和充分性，建立新闻事实主张与核验结论之间的可靠联系。对于证据不足的情况，保留判断的不确定性，并提供证据来源与判断理由，使核验结果能够被用户理解、追溯和人工复核。
+Against this background, the project aims to build a Multimodal News Fact-Checking and Evidence Reliability Enhancement System that bases its judgments on reliable, traceable external evidence. The proposed system would assess source reliability, factual relevance, source independence, and evidence sufficiency to establish a clear link between news claims and verification conclusions. When evidence is insufficient, it should preserve uncertainty and provide sources and reasoning so that users can understand, trace, and review the results.
