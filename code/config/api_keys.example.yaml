@@ -1,0 +1,6 @@
+# Copy this file to api_keys.yaml and enter your credentials locally.
+# api_keys.yaml is excluded from Git and must not be committed.
+huggingface_user_access_token:
+openai_api_key:
+deepseek_api_key:
+serper_api_key:

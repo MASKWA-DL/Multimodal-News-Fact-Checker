@@ -20,6 +20,7 @@ secrets/
 *.jks
 id_rsa
 id_ed25519
+/code/config/api_keys.yaml
 
 # Local editor and assistant state
 .idea/
@@ -48,6 +49,7 @@ htmlcov/
 logs/
 tmp/
 temp/
+_tmp/
 
 # Operating system and temporary files
 .DS_Store
